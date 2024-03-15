@@ -5,9 +5,9 @@ public class Main {
 	
      Persona tony_stark = new Persona ();
      tony_stark.setName("Tony Stark");
-     System.out.println(tony_stark.name+":"+tony_stark.edad);
+
      tony_stark.setEdad(35);
-     System.out.println(tony_stark.name+":"+tony_stark.edad+","+tony_stark.city);
+    
      tony_stark.setCity("New York");
      System.out.println(tony_stark.name+":"+tony_stark.edad+","+tony_stark.city);
      
@@ -16,7 +16,13 @@ public class Main {
      iron_man.powers= new String[] {"volar","Pelear"};
      
      
-
+     Persona majin_boo = new Persona ();
+     majin_boo.setName("Majin Boo");
+     majin_boo.setEdad(3);
+     majin_boo.setCity("Tierra");
+     
+     System.out.println(majin_boo.name+":"+majin_boo.edad+","+majin_boo.city);
+     
 	}
 
 }
